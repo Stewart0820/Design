@@ -3,7 +3,7 @@ package com.stewart.singleton.type5;
 /**
  * @author Stewart
  * @create 2021/9/23
- * 懒汉式  线程安全,效率太低了
+ * 双重检查 推荐使用！！！！！！
  */
 public class SingtonTest05 {
     public static void main(String[] args) {
@@ -14,15 +14,19 @@ public class SingtonTest05 {
 }
 
 class Singleton {
-    private static Singleton instance;
+    private static volatile Singleton instance;
 
     private Singleton(){}
 
-    //加入了同步处理的代码块，解决线程安全问题
-    //每一次获取实例，都需要同步，效率太低了
+    //加入了双重检查，解决线程安全问题,同时解决懒加载问题
+    //同时保证效率
     public static synchronized Singleton getInstance(){
         if(instance==null){
-            instance = new Singleton();
+            synchronized(Singleton.class){
+                if(instance==null){
+                    instance = new Singleton();
+                }
+            }
         }
         return instance;
     }
