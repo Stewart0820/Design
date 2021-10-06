@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caf20986-6502-4248-b2e0-5e47a0ca8eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/IFridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/IWasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/factory/GeliHouseholdFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/factory/IHouseholdElectricFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/factory/MeideHouseholdFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/geli/GeliFridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/geli/GeliWasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/meide/MeideFridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/abstractfactory/meide/MeideWasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/factorymethod/BiluochunTeaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/factorymethod/ITeaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/factorymethod/LongjingTeaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/pizzastore/order/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/tea/BiluochunTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/tea/ITea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/tea/LongjingTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/tea/TeaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/tea/text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/factory/simplefactory/pizzastore/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/factory/simplefactory/pizzastore/order/OrderPizza.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/factory/simplefactory/pizzastore/order/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/factory/simplefactory/pizzastore/order/PizzaStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/pizzastore/order/OrderPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/pizzastore/order/OrderPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/pizzastore/order/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stewart/factory/simplefactory/pizzastore/order/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/improve/Sheep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +67,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stewart.prototype.improve" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type6" />
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type5" />
@@ -94,7 +77,33 @@
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.text">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.prototype.improve.Client" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.prototype.improve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.prototype.Client" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stewart.factory.simplefactory.pizzastore.order.PizzaStore" />
       <module name="design" />
@@ -121,32 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingtonTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.singleton.type4.SingtonTest04" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stewart.singleton.type4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingtonTest06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.singleton.type6.SingtonTest06" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stewart.singleton.type6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stewart.factory.simplefactory.tea.text" />
       <module name="design" />
@@ -162,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.text" />
         <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.SingletonTest07" />
-        <item itemvalue="Application.SingtonTest06" />
-        <item itemvalue="Application.SingtonTest04" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +168,7 @@
       <workItem from="1633313870359" duration="6000" />
       <workItem from="1633402650567" duration="3863000" />
       <workItem from="1633435067732" duration="589000" />
-      <workItem from="1633485138719" duration="2773000" />
+      <workItem from="1633485138719" duration="7679000" />
     </task>
     <servers />
   </component>
@@ -193,26 +176,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1633403650066">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1633508469662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633403650066" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1633488313512">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508469662" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1633508809373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633488313512" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1633488313512">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1633508809373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633488313512" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1633488313512">
+    <state width="1877" height="191" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1633508809373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633488313512" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1633488313512">
+    <state width="1877" height="191" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1633508809373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633488313512" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1633488962228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
