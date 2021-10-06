@@ -9,3 +9,17 @@ b
 2src/com/stewart/singleton/type1/SingtonTest01.java,8\8\8882b1c3f183c72a0260f71886a70315bd30abb4
 b
 2src/com/stewart/singleton/type5/SingtonTest05.java,5\9\597ecd479b4f5ead818510ff158946f1ee2a10e9
+b
+2src/com/stewart/singleton/type6/SingtonTest06.java,5\c\5c8cbc791c26050fde40a455d7cb38b834c56bcc
+d
+4src/com/stewart/singleton/type7/SingletonTest07.java,1\3\139e310cfe5d8e24719eac12bdacb155ca1d3334
+q
+Asrc/com/stewart/factory/simplefactory/pizzastore/pizza/Pizza.java,8\a\8a052af2b8feafdaf42d2d4a64dc871000c41db9
+v
+Fsrc/com/stewart/factory/simplefactory/pizzastore/pizza/ChesePizze.java,5\c\5c96bffd454e5f27fa77c23c92a840a217917fc2
+v
+Fsrc/com/stewart/factory/simplefactory/pizzastore/pizza/GreekPizza.java,d\0\d04639b1822605ec664e054f461e235b0e8124c1
+v
+Fsrc/com/stewart/factory/simplefactory/pizzastore/order/OrderPizza.java,7\5\754d1dea99477b9f9061a1d6c99451b42ebe7861
+v
+Fsrc/com/stewart/factory/simplefactory/pizzastore/order/PizzaStore.java,5\e\5e2512d2797af7c979e9619c397bbb062250cc9a
