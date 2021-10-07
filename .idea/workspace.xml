@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caf20986-6502-4248-b2e0-5e47a0ca8eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/improve/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/prototype/improve/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/CommonHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/HighHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/UserServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Sheep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +89,39 @@
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stewart.prototype.improve.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stewart.prototype.improve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.builder.Client" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.proxy.demo2.Client" />
+      <module name="design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stewart.proxy.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.factory.simplefactory.pizzastore.order.PizzaStore" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.proxy.demo1.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stewart.factory.simplefactory.pizzastore.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.singleton.type7.SingletonTest07" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stewart.singleton.type7.*" />
+          <option name="PATTERN" value="com.stewart.proxy.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.text" />
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.SingletonTest07" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +193,8 @@
       <workItem from="1633313870359" duration="6000" />
       <workItem from="1633402650567" duration="3863000" />
       <workItem from="1633435067732" duration="589000" />
-      <workItem from="1633485138719" duration="7679000" />
+      <workItem from="1633485138719" duration="11329000" />
+      <workItem from="1633611766782" duration="1447000" />
     </task>
     <servers />
   </component>
@@ -176,26 +202,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1633508469662">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1633612725433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508469662" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1633508809373">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612725433" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1633612952251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1633508809373">
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1633612952251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1633508809373">
+    <state width="1877" height="191" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1633612952251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1633508809373">
+    <state width="1877" height="191" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1633612952251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633508809373" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1633488962228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
