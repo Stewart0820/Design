@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caf20986-6502-4248-b2e0-5e47a0ca8eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/CommonHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/HighHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/builder/HouseDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo1/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo2/UserServiceProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/prototype/improve/Sheep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo3/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo3/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo3/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/stewart/proxy/demo4/ProxyInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design/com/stewart/proxy/demo2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design/com/stewart/proxy/demo2/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/stewart/singleton/type6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/stewart/proxy/demo3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,26 +74,14 @@
       <recent name="com.stewart.prototype.improve" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\proxy\demo3" />
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type6" />
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type5" />
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type4" />
       <recent name="D:\SchoolProject\DesiginModel\design\src\com\stewart\singleton\type2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.prototype.improve.Client" />
-      <module name="design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stewart.prototype.improve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stewart.builder.Client" />
       <module name="design" />
@@ -129,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.prototype.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stewart.proxy.demo3.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stewart.prototype.*" />
+          <option name="PATTERN" value="com.stewart.proxy.demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stewart.proxy.demo1.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.stewart.proxy.demo4.Client" />
       <module name="design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stewart.proxy.demo1.*" />
+          <option name="PATTERN" value="com.stewart.proxy.demo4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +173,7 @@
       <workItem from="1633402650567" duration="3863000" />
       <workItem from="1633435067732" duration="589000" />
       <workItem from="1633485138719" duration="11329000" />
-      <workItem from="1633611766782" duration="1447000" />
+      <workItem from="1633611766782" duration="3433000" />
     </task>
     <servers />
   </component>
@@ -202,26 +181,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1633612725433">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1633614750581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612725433" />
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom" timestamp="1633612952251">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633614750581" />
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1633614997276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
-    <state width="1877" height="191" key="GridCell.Tab.0.center" timestamp="1633612952251">
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633614997276" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1633614997276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
-    <state width="1877" height="191" key="GridCell.Tab.0.left" timestamp="1633612952251">
+    <state width="1877" height="170" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633614997276" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1633614997276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
-    <state width="1877" height="191" key="GridCell.Tab.0.right" timestamp="1633612952251">
+    <state width="1877" height="170" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633614997276" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1633614997276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="191" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633612952251" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1633614997276" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1633488962228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
